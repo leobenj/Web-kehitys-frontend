@@ -1,0 +1,73 @@
+Console was cleared
+undefined
+var x = 5;
+var y = 6;
+var z = x + y;
+console.log(z);
+alert(z);
+document.write(z);
+VM1027:4 11
+undefined
+var x = 50;
+var order = 'Beer';
+if (x > 50) {
+document.write("He's over 50!" );
+} else if (x <= 50 && x> 30){
+document.write("Middle aged man, who ordered some "+order);
+} else {
+document.write("It seems you're bit underaged.");
+}
+undefined
+var arr = [];
+for (var i=0; i<15; i++) {
+arr.push(Math.random());
+} console.log(arr);
+VM2092:4 (15) [0.07688940315635284, 0.10502349683322709, 0.8015665104579296, 0.33998282426251225, 0.8690563941580436, 0.96616298705463, 0.5646083912608808, 0.15800280205589, 0.4117673707718257, 0.8006960470296758, 0.7405119976086554, 0.6272998824741314, 0.3277792413373335, 0.5453206113731223, 0.03772130330520107]
+undefined
+function addNumbers(a, b {
+return a + b ;
+}
+console.log(addNumbers(5, 10));
+VM2392:1 Uncaught SyntaxError: Unexpected token '{'Understand this error
+function addNumbers(a, b) {
+return a + b;
+}
+console.log(addNumbers(5, 10));
+VM2711:4 15
+undefined
+// Define an object to hold persons data
+var person = {
+firstName:"John",
+lastName:"Doe",
+age:50,
+eyeColor:"blue"
+};
+console.log(person.age);
+VM3072:8 50
+undefined
+var i = 5; var j = 10
+var k = 25; var l = Joe;
+if (i < j) {
+console.log("i");
+} else if (j > k) {
+console.log("k);
+else console.log("l");
+VM3511:6 Uncaught SyntaxError: Invalid or unexpected tokenUnderstand this error
+var i = 5; var j = 10
+var k = 25; var l = Joe;
+if (i < j) {
+console.log("i");
+} else if (j > k) {
+console.log("k");
+else console.log("l");
+VM3519:7 Uncaught SyntaxError: Unexpected token 'else'Understand this error
+var arr = [3, 5, 7];
+for (var i = 0; i <=3; ++i){
+console.log(arr[i]);
+}
+
+VM3698:3 3
+VM3698:3 5
+VM3698:3 7
+VM3698:3 undefined
+undefined
